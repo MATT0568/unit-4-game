@@ -1,0 +1,98 @@
+body {
+    background-image: url('../images/stripes-light.png'); 
+    background-size: cover;
+}
+#title {
+    background-color: #CE6C0A;
+    width: 250px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instructions {
+    background-color: #FEE3C8;
+    width: 600px;
+    height: 300px;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    padding-top: 15px;
+    padding-left: 5px;
+    line-height: 16px;
+}
+
+#number-goal {
+    background-color: green;
+    width: 220px;
+    height: 110px;
+    font-size: 32px;
+    margin-left: 10px;
+    padding-left: 5px;
+    float: left;
+}
+
+#wins-losses {
+    background-color: aqua;
+    width: 100px;
+    height: 110px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    width: 120px;
+    margin-left: 10px;
+    height: 120px;
+}
+
+#green {
+    width: 120px;
+    height: 120px;
+}
+
+#orange {
+    width: 120px;
+    height: 120px;
+}
+
+#blue {
+    width: 120px;
+    height: 120px;
+}
+
+#score-header {
+    background-color: aqua;
+    height: 30px;
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#total-score {
+    background-color: aqua;
+    height: 110px;
+    width: 220px;
+    font-size: 32px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
